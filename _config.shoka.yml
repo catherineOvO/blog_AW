@@ -6,19 +6,27 @@ loader:
   start: true # 当初次打开页面时，显示加载动画
   switch: false # tab 切换到其他页面时，显示加载动画
 
+iconfont: "3403166_ozq0ghrmc9"
+
 social:
   github: https://github.com/Angtian || github || "#191717"
-  email: angtianwang@gmail.com || envelope || "#55acd5"
-#  facebook: https://www.facebook.com/yourname || facebook
-  #google: https://plus.google.com/yourname || google
-#  twitter: https://twitter.com/amehime || twitter || "#00aff0"
-#  zhihu: https://www.zhihu.com/people/rurismzk || zhihu || "#1e88e5"
-#  music: https://music.163.com/#/user/home?id=12886823 || cloud-music || "#e60026"
-#  weibo: https://weibo.com/amehime || weibo || "#ea716e"
-#  about: https://about.me/amehime || address-card || "#3b5998"
+  googlescholar: https://scholar.google.com/citations?user=YR7re-cAAAAJ&hl || googlescholar || "#4285F4"
+  linkedin: https://www.linkedin.com/in/angtian-wang-45977921b || linkedin || "#0e76a8"
+
+
+sidebar:
+  # Sidebar Position.
+  position: left
+  # position: right
+  # Replace the default avatar image and set the url here.
+  avatar: avatar.png
+
+auto_scroll: true
 
 menu:
   home: / || home
+  publications: /publications || publications
+  resume: /resume || icon_resume
 
 exturl: true
 

@@ -21,6 +21,9 @@
     "hexo-renderer-marked": "^5.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^3.0.0",
-    "hexo-theme-landscape": "^0.0.3"
+    "hexo-autoprefixer": "^2.0.0",
+    "hexo-algoliasearch": "^1.0.0",
+    "hexo-feed": "^1.1.0",
+    "remark-pangu": "^2.2.0"
   }
 }
