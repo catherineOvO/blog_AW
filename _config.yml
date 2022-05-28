@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hello World!
+title: ''
 subtitle: ''
 description: 'Email: angtianwang@gmail.com'
 keywords:
@@ -14,7 +14,8 @@ timezone: 'America/New_York'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://example.com
-permalink: :year/:month/:day/:title/
+root: /
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -23,6 +24,8 @@ pretty_urls:
 # Directory
 source_dir: source
 public_dir: public
+publications_dir: publications
+resume_dir: resume
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -44,17 +47,12 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false # edit for Theme.shoka
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
-  wrap: true
-  hljs: false
 prismjs:
-  enable: false
-  preprocess: true
-  line_number: true
-  tab_replace: ''
+  enable: false # edit for Theme.shoka
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')

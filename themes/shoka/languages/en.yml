@@ -29,9 +29,10 @@ sidebar:
   related: Related
 
 index:
-  sticky: Sticky Posts
+  about_me: About Me
+  sticky: Selected Publilcations
   category: Categories
-  posts: Post List
+  posts: Publications
   random_posts: Random Posts
   recent_comments: Recent Comments
 

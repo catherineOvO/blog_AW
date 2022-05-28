@@ -36,13 +36,13 @@
 
     {{ partial('_partials/post/footer.njk') }}
 
-    {%- if theme.reward.enable %}
-      {{ partial('_partials/post/reward.njk', {}, {cache: true}) }}
-    {%- endif %}
+{#    {%- if theme.reward.enable %}#}
+{#      {{ partial('_partials/post/reward.njk', {}, {cache: true}) }}#}
+{#    {%- endif %}#}
 
-    {%- if theme.creative_commons.license %}
-      {{ partial('_partials/post/copyright.njk') }}
-    {%- endif %}
+{#    {%- if theme.creative_commons.license %}#}
+{#      {{ partial('_partials/post/copyright.njk') }}#}
+{#    {%- endif %}#}
   </footer>
 
 </article>

@@ -15,7 +15,8 @@ hexo.extend.generator.register('index', function(locals) {
   const config = hexo.config;
   const theme = hexo.theme.config;
   const sticky = locals.posts.find({'sticky': true}).sort(config.index_generator.order_by);
-  const posts = locals.posts.find({'sticky': {$exists: false}}).sort(config.index_generator.order_by);
+  const posts = locals.posts.find({'about_me': {$exists: false}}).sort(config.index_generator.order_by);
+  const about_me = locals.posts.find({'about_me': true});
   const paginationDir = config.pagination_dir || 'page';
   const path = config.index_generator.path || '';
   const categories = locals.categories;
@@ -77,7 +78,8 @@ hexo.extend.generator.register('index', function(locals) {
       data: {
         __index: true,
         catlist: catlist,
-        sticky: sticky
+        sticky: sticky,
+        about_me: about_me
       }
     });
   } else {
@@ -87,7 +89,8 @@ hexo.extend.generator.register('index', function(locals) {
         data: {
           __index: true,
           catlist: catlist,
-          sticky: sticky
+          sticky: sticky,
+          about_me: about_me
         }
       }];
   }
