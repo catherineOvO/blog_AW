@@ -6,22 +6,26 @@ favicon:
 
 title:
   archive: Archive
-  category: Category
+  category: Publications
   tag: Tag
-  all: All
+  all: All_
   not_found: Σ( ° △ °|||)︴404!
-  category_in: Posted in category "%s"
+  category_in: Publications
   tag_in: Posted with tag "%s"
   archive_in: Posted on "%s"
+  publications: Publications
+  resume: Resume
 
 menu:
   home: Home
-  posts: Posts
+  posts: Publications
   archives: Archives
-  categories: Categories
+  categories: Publications
   tags: Tags
   about: About
   search: Search
+  publications: Publications
+  resume: Resume
 
 sidebar:
   overview: Overview
@@ -31,7 +35,7 @@ sidebar:
 index:
   about_me: About Me
   sticky: Selected Publilcations
-  category: Categories
+  category: Publications
   posts: Publications
   random_posts: Random Posts
   recent_comments: Recent Comments

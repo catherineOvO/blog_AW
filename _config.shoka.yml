@@ -25,13 +25,8 @@ auto_scroll: true
 
 menu:
   home: / || home
-  publications: /publications/ || publications
+  publications: /categories/ || publications
   resume: /resume/ || icon_resume
-  posts:
-    default: / || feather
-    archives: /archives/ || list-alt
-    categories: /categories/ || th
-    tags: /tags/ || tags
 
 exturl: true
 
