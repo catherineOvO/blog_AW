@@ -10,7 +10,7 @@ title:
   tag: Tag
   all: All_
   not_found: Σ( ° △ °|||)︴404!
-  category_in: Publications
+  category_in: angtian
   tag_in: Posted with tag "%s"
   archive_in: Posted on "%s"
   publications: Publications
@@ -69,11 +69,10 @@ footer:
 counter:
   index:
     post: "%d posts in total"
-    category:  "%d subcategories in total, "
+    category:  "%d publications in total, "
   tag_cloud:
-    zero: No tags
-    one: 1 tag in total
-    other: "%d tags in total"
+    one: = w =
+    other: "AWWWU"
   categories:
     zero: No categories
     one: 1 category in total
