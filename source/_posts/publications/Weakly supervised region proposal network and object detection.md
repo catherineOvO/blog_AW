@@ -1,6 +1,7 @@
 ---
 title: Weakly supervised region proposal network and object detection
 category: publications
+cover: assert/1304db003eb50e1c747a6369806a591.jpg
 ---
 
 ### Summary
