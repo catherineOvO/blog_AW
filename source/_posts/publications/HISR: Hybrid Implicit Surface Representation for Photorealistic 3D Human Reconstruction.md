@@ -1,7 +1,6 @@
 ---
 title: HISR: Hybrid Implicit Surface Representation for Photorealistic 3D Human Reconstruction
 category: publications
-cover: assert/1304db003eb50e1c747a6369806a591.jpg
 ---
 
 ### Author
